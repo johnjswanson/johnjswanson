@@ -23,7 +23,7 @@ body{
   flex-direction: column;
   align-items: left;
   width:200px;
-  height:600px
+  height:100vw
 }
 
 .image1{
