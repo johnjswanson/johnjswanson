@@ -6,7 +6,7 @@ body{
 
 @font-face {
   font-family: luiss;
-  src:url("https://github.com/johnjswanson/johnjswanson/tree/main/luiss");
+  src:url("/Users/johnjswanson/Desktop/Portfolio HTML/luiss/Luiss Serif Regular.otf");
   font-weight: normal;
 }
 
@@ -148,11 +148,12 @@ body{
 .body{
   color: white;
   display: flex;
+  flex-direction: column;
   font-family: luiss;
   align-items: center;
   text-align: justify;
-  padding-right: 23%;
   padding-top: 70px;
+  padding-bottom: 70px;
   line-height: 18px;
 }
 
@@ -178,5 +179,7 @@ body{
 
 .images{
   padding-top: 10px;
-  width: 60vw
+  max-width: 60vw;
+  height:auto;
+
 }
