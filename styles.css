@@ -6,16 +6,13 @@ body{
 
 @font-face {
   font-family: luiss;
-  src:url("/Users/johnjswanson/Desktop/Portfolio HTML/luiss/Luiss Serif Regular.otf");
+  src:url("https://github.com/johnjswanson/johnjswanson/tree/main/luiss");
   font-weight: normal;
 }
 
 .container{
-  overflow: hidden;
   font-family: luiss;
   float:left;
-  width:200px;
-  height:600px;
   position:sticky;
   position: -webkit-sticky;
   top:0;
@@ -25,7 +22,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: left;
-
+  width:200px;
+  height:600px
 }
 
 .image1{
@@ -150,14 +148,12 @@ body{
 .body{
   color: white;
   display: flex;
-  flex-wrap: wrap;
   font-family: luiss;
   align-items: center;
   text-align: justify;
   padding-right: 23%;
   padding-top: 70px;
   line-height: 18px;
-  overflow-y: auto;
 }
 
 .list{
@@ -179,14 +175,8 @@ body{
   line-height: 18px;
 }
 
-.body-images{
-  flex:50%;
-  padding: 0 10px;
-
-}
 
 .images{
   padding-top: 10px;
-  padding-right: 23%;
-  width: 60vw;
+  width: 60vw
 }
