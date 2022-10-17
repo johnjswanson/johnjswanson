@@ -35,6 +35,7 @@ body{
   position: absolute;
   right: 0;
   bottom:0;
+  padding: 0 0 10px 0;
   shape-outside: url("https://github.com/johnjswanson/johnjswanson/blob/main/background1b2.png?raw=true");
 }
 
