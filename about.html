@@ -20,16 +20,16 @@
 
       height: 100%
     }
-  
-@media screen and (min-width: 550px) {
-  div.image2 {
+@media screen and (max-width: 670px) {
+  div.image1 {
     display: none;
     
   }
 }
-@media screen and (max-width: 670px) {
-  div.image1 {
+@media screen and (min-width: 550px) {
+  div.image2 {
     display: none;
+    position: absolute;
     
   }
 }
@@ -39,11 +39,10 @@
   }
 }
 @media screen and (max-width: 550px) {
-  div{
-  background-image: none;
+  body{
+    background-image: none;
   }
 }
-
 @media screen and (max-width: 550px) {
   div.list {
     margin-right:-40px
