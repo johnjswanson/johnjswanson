@@ -11,6 +11,7 @@
   height: 100%;
   }
   body {
+      background-color: #d8d8d8;
       background-image: url("https://github.com/johnjswanson/johnjswanson/blob/main/background1b.jpeg?raw=true");
       background-repeat: no-repeat;
       background-position: center;
@@ -19,10 +20,28 @@
 
       height: 100%
     }
-
+  
+@media screen and (min-width: 550px) {
+  div.image2 {
+    display: none;
+    
+  }
+}
 @media screen and (max-width: 670px) {
   div.image1 {
     display: none;
+    
+  }
+}
+@media screen and (max-width: 550px) {
+  div.list {
+    margin-right:-40px
+  }
+}
+@media screen and (max-width: 550px) {
+  div.body {
+    background-image:none;
+    
   }
 }
 
@@ -73,6 +92,9 @@
   <div class="image1">
     <img src="https://github.com/johnjswanson/johnjswanson/blob/main/signature3.png?raw=true" alt="Signature" width="250"
            height="100">
+ </div>
+   <div class="image2">
+    <img src="https://github.com/johnjswanson/johnjswanson/blob/main/background1b2?raw=true" alt="Signature" width="50%">
  </div>
 
    </script>
