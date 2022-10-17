@@ -29,14 +29,15 @@ body{
 .image1{
   position: absolute;
   right: 0;
-  bottom:0
+  bottom:0;
+  z-index:1
 }
 .image2{
-  position: absolute;
-  right: 0;
-  bottom:0;
-  padding: 0 0 10px 0;
-  shape-outside: url("https://github.com/johnjswanson/johnjswanson/blob/main/background1b2.png?raw=true");
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  z-index:2;
+  mix-blend-mode: difference;
 }
 
 
