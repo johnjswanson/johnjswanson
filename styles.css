@@ -35,9 +35,8 @@ body{
 .image2{
   position: fixed;
   right: 0px;
-  bottom: 0px;
+  bottom: -20px;
   z-index:2;
-  mix-blend-mode: difference;
 }
 
 
