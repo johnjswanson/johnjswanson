@@ -10,8 +10,8 @@
     var totalCount = 10;
     function ChangeIt() 
     {
-    var num = Math.ceil( Math.random() * 10 );
-    document.body.background = 'images/kj/'kj_'.jpg';
+    var num = Math.ceil( Math.random() * totalCount );
+    document.body.background = 'images/kj/'+num+'.jpg';
     document.body.style.backgroundRepeat = "repeat";
     }
 </script>
@@ -124,7 +124,7 @@
       <br>
       Most of all, 
       <br>
-      <div class="about">
+      <div class="button">
         <a onclick="expand0()">I've loved you</a>
         <div id="love">
           <div class="body">
