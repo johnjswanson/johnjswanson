@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>John J. Swanson</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<style >
+  html {
+  height: 100%;
+  }
+  body {
+      background-color: #e8e8e8;
+      background-image: url("https://github.com/johnjswanson/johnjswanson/blob/main/background1b.jpeg?raw=true");
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+
+  
+@media screen and (max-width: 550px) {
+  div.list {
+    margin-right:-40px
+  }
+}
+ 
+  
+@media screen and (max-width: 550px) {
+  div.about {
+    padding-left: 15px;
+    padding-top:0;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  div.container {
+    float: top;
+    height:100px;
+   
+  }
+}
+  
+@media screen and (max-width: 550px) {
+  div.headline {
+    margin-left:15px;
+    width:50px
+  }
+}
+  
+@media screen and (max-width: 550px) {
+  div.sidebar {
+    flex-direction:row;
+    width:100vw;
+  }
+}
+  
+@media screen and (max-width: 550px) {
+  div.subhead {
+    flex-direction:row;
+    align-items: flex-start;
+    padding-top: 10px;
+    margin-left:  5px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  div.image1 {
+    display: none;
+  }
+}
+  
+@media screen and (min-width: 550px) {
+  div.image2 {
+    display: none;
+  }
+}
+  
+@media screen and (max-width: 550px) {
+  body{
+    background-image: none;
+  }
+}
+  
+</style>
+<body>
+  <div class="image1">
+    <img src="https://github.com/johnjswanson/johnjswanson/blob/main/signature3.png?raw=true" alt="Signature" width="250"
+           height="100">
+ </div>
+   <div class="image2">
+    <img src="https://github.com/johnjswanson/johnjswanson/blob/main/background1b2.png?raw=true" alt="Signature" width="100%">
+ </div>
+
+   </script>
+   <div class="container">
+     <div class="sidebar">
+       <div class="headline">
+         <div class="brand">
+           <a href="index.html">john j. swanson</a>
+         </div>
+       </div>
+       <div class="subhead">
+         
+        <div class="button">
+           <a href="years.html">s h o t s</a>
+         </div>
+         
+         <div class="button">
+           <a href="about.html">a b o u t</a>
+         </div>
+
+         <div class="button">
+           <a href="https://www.instagram.com/johnjswansonphoto/">i n s t a</a>
+         </div>
+
+       </div>
+
+     </div>
+   </div>
+  <div class="about">
+      Dear Keelie,
+      <br>
+      <br>
+      First and foremost: Happy 3 months. I have so enjoyed the time we've been able to spend together over this stretch of time. 
+      <br>
+      I've loved walking around Duluth.
+      <br>
+      I've loved running errands together.
+      <br>
+      I've loved lazy nights at my house.
+      <br>
+      I've loved hearing you laugh, seeing you smile, and being near you.
+      <br>
+      But, most of all, I've loved you.
+      <br>
+      <br>
+      Cheers to 3 more happy, heartwarming, and harmonious months 🥂
+      I hope you are enjoying New York--I miss you, but am also very excited for you to have a chance to enjoy your time in the big apple.
+      I will see you soon, my dear Keelie.
+      <br>
+      <br>
+      All my love,
+      <br>
+      John Swanson
+      <br>
+      <br>
+      <br>
+      p.s. If you reload this page, the background changes! I also hid a couple of secrets... let me know if you cannot find them.
+  </div>
+</body>
+</html>
