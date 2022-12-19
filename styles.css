@@ -158,16 +158,28 @@ body{
 
 .letter{
   align-items: center;
-  position: absolute;
   line-height: 22px;
   color: white;
   display: flex;
-  mix-blend-mode: difference;
+  padding-left: 20%;
+  padding-top: 20%;
   font-family: luiss;
   text-align: justify;
   max-width: 40em;
 }
 
+.letter2{
+  font-size: 0.8em;
+  align-items: center;
+  line-height: 22px;
+  color: white;
+  display: flex;
+  padding-left: 20%;
+  padding-top: 20%;
+  font-family: luiss;
+  text-align: justify;
+  max-width: 40em;
+}
 
 .body{
   color: white;
