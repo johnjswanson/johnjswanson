@@ -156,6 +156,22 @@ body{
   padding-bottom:`1px;
 }
 
+.letter{
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  line-height: 18px;
+  color: white;
+  display: flex;
+  mix-blend-mode: difference;
+  font-family: luiss;
+  text-align: justify;
+  max-width: 15em;
+}
+
+
 .body{
   color: white;
   display: flex;
