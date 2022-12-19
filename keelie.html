@@ -6,15 +6,15 @@
   <title>John J. Swanson</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <script type="text/javascript">
-        window.onload = function () {
-            var images = ['images/kj/kj_1', 'images/kj/kj_2', 'images/kj/kj_3', 'images/kj/kj_4', 'images/kj/kj_5', 'images/kj/kj_6', 'images/kj/kj_7', 'images/kj/kj_8', 'images/kj/kj_9', 'images/kj/kj_10'];
-            var image = images[Math.floor(Math.random() * images.length)];
-            document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + image + "')";
-            document.getElementsByTagName('body')[0].style.backgroundRepeat = "no-repeat";
-            document.getElementsByTagName('body')[0].style.backgroundSize = "cover";
-        }
-    </script>
+  <script type="text/javascript"> 
+    var totalCount = 10;
+    function ChangeIt() 
+    {
+    var num = Math.ceil( Math.random() * 10 );
+    document.body.background = 'images/kj/'kj_'.jpg';
+    document.body.style.backgroundRepeat = "repeat";
+    }
+</script>
 </head>
 <style >
   html {
@@ -124,6 +124,7 @@
       <br>
       Most of all, 
       <br>
+      <div class="about">
         <a onclick="expand0()">I've loved you</a>
         <div id="love">
           <div class="body">
@@ -148,6 +149,7 @@
             <a>20.</a>
             <a>21.</a>
           </div>
+        </div>
       <br>
       <br>
       Cheers to 3 more happy, heartwarming, and harmonious months 🥂
@@ -165,4 +167,7 @@
       p.s. If you reload this page, the background changes! I also hid a couple of secrets... let me know if you cannot find them.
   </div>
 </body>
+    <script type="text/javascript"> 
+      ChangeIt();
+</script> 
 </html>
