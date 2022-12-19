@@ -165,20 +165,14 @@ body{
   padding-top: 20%;
   font-family: luiss;
   text-align: justify;
-  max-width: 40em;
+  max-width: 45em;
 }
 
 .letter2{
   font-size: 0.8em;
-  align-items: center;
-  line-height: 22px;
+  line-height: 18px;
   color: white;
   display: flex;
-  padding-left: 20%;
-  padding-top: 20%;
-  font-family: luiss;
-  text-align: justify;
-  max-width: 40em;
 }
 
 .body{
