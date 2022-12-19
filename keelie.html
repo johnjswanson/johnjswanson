@@ -93,9 +93,19 @@
    <div class="image2">
     <img src="https://github.com/johnjswanson/johnjswanson/blob/main/background1b2.png?raw=true" alt="Signature" width="100%">
  </div>
-
-   </script>
-  <div class="about2">
+  
+<script>
+  function expand0() {
+    var x = document.getElementById("button");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+  
+  <div class="letter">
       Dear Keelie,
       <br>
       <br>
@@ -115,7 +125,13 @@
       Most of all, 
       <br>
         <div class="button">
-          I've loved you.
+        <a onclick="expand0()">I've loved you</a>
+        <div id="button">
+          <div class="list">
+            <a>1</a>
+            <a>2</a>
+            <a>3</a>
+          </div>
         </div>
       <br>
       <br>
