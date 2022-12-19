@@ -6,6 +6,15 @@
   <title>John J. Swanson</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script type="text/javascript">
+        window.onload = function () {
+            var images = ['images/kj/kj_1', 'images/kj/kj_2', 'images/kj/kj_3', 'images/kj/kj_4', 'images/kj/kj_5', 'images/kj/kj_6', 'images/kj/kj_7', 'images/kj/kj_8', 'images/kj/kj_9', 'images/kj/kj_10'];
+            var image = images[Math.floor(Math.random() * images.length)];
+            document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + image + "')";
+            document.getElementsByTagName('body')[0].style.backgroundRepeat = "no-repeat";
+            document.getElementsByTagName('body')[0].style.backgroundSize = "cover";
+        }
+    </script>
 </head>
 <style >
   html {
@@ -117,7 +126,7 @@
       <br>
       Most of all, 
       <br>
-      <div class="button">
+      <div>
         <a onclick="expand0()">I've loved you</a>
         <div id="love">
           <div class="body">
