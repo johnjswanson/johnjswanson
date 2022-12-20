@@ -163,7 +163,8 @@ body{
   padding-top: 20%;
   padding-right:20%;
   line-height: 22px;
-  color: black;
+  color: white;
+  text-shadow: 1px 1px 2px black;
   font-family: luiss;
   text-align: justify;
 }
