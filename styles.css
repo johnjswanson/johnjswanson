@@ -165,7 +165,7 @@ body{
   padding-bottom: 20px;
   line-height: 22px;
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 2px black;
   font-family: luiss;
   text-align: justify;
 }
@@ -174,7 +174,7 @@ body{
   font-size: 0.8em;
   line-height: 18px;
   color: white;
-  text-shadow: 1px 1px 2px black
+  text-shadow: 2px 2px 2px black
 }
 
 .body{
