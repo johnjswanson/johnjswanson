@@ -157,7 +157,8 @@ body{
 }
 
 .letter{
-  text-shadow: 1px 1px 2px black;
+  background-color: #f8f8f8;
+  opacity: 0.3;
   position:absolute;
   align-items: left;
   line-height: 22px;
