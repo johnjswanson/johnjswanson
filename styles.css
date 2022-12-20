@@ -157,16 +157,11 @@ body{
 }
 
 .letter{
-  background-color: #f8f8f8;
-  opacity: 0.3;
   position:absolute;
   align-items: left;
   padding-left: 20%;
   padding-top: 20%;
   padding-right:20%;
-}
-
-.letter p{
   line-height: 22px;
   color: black;
   font-family: luiss;
