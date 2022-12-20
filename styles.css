@@ -236,12 +236,24 @@ body{
   line-height: 18px;
 }
 
+
+
 .years{
   position:absolute;
   display: flex;
   flex-direction: column;
   font-family: luiss;
   align-items: left;
+  padding-top: 45px;
+  margin-left: 200px;
+  line-height: 18px;
+}
+.years0{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  font-family: luiss;
+  align-items: center;
   padding-top: 45px;
   margin-left: 200px;
   line-height: 18px;
