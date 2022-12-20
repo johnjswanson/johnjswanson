@@ -161,12 +161,14 @@ body{
   opacity: 0.3;
   position:absolute;
   align-items: left;
-  line-height: 22px;
-  color: white;
-  display: flex;
   padding-left: 20%;
   padding-top: 20%;
   padding-right:20%;
+}
+
+.letter p{
+  line-height: 22px;
+  color: black;
   font-family: luiss;
   text-align: justify;
 }
